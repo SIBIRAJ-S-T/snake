@@ -1,0 +1,90 @@
+.game-area {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid white;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .paddle-left,
+  .paddle-right {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+  }
+  
+  .paddle-left {
+    left: 0;
+    background-color: red;
+  }
+  
+  .paddle-right {
+    right: 0;
+    background-color: blue;
+  }
+  
+  .score {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+  }
+
+  .winner-message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+  }
+  
+  .pongresetbutton{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pongresetbutton:hover {
+    background-color: #0056b3;
+  }
+
+  .pongkeyname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pongkeyname h1{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .pongkeyname .pongws{
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 242, 2);
+  }
+  .pongkeyname .pongupdown{
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 242, 2);
+
+  }
