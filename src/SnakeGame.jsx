@@ -15,7 +15,7 @@ const SnakeGame = () => {
     const [borderWidth, setBorderWidth] = useState(2);
     const [snake1Score, setSnake1Score] = useState(0);
     const [snake2Score, setSnake2Score] = useState(0);
-    const [timer, setTimer] = useState(90); // 2 minutes
+    const [timer, setTimer] = useState(120); // 2 minutes
     const [winner, setWinner] = useState(null);
     const [paused, setPaused] = useState(false);
     const [restarted, setRestarted] = useState(false);
@@ -178,7 +178,7 @@ const SnakeGame = () => {
         setSnake2Length(1);
         setSnake1Score(0);
         setSnake2Score(0);
-        setTimer(90);
+        setTimer(120);
         setWinner(null);
         setPaused(false);
         setRestarted(true);
